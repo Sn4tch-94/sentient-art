@@ -3,6 +3,10 @@ import { BrowserRouter as Router, Routes, Route}  from 'react-router-dom'
 
 import SideBar from './components/SideBar'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+
+import Home from './pages/Home';
+// import News from './pages/News';
 
 function App() {
 	return (
@@ -13,6 +17,23 @@ function App() {
 				</div>
 				<div className="app-body">
 					<Navbar/>
+					<Routes>
+						<Route path="/" exact element={<Home/>}/>
+						{/* <Route path="/portfolio" component={Portfolio}/>
+						<Route path="/portfolio/near-future-armored-truck" component={Truck}/>
+						<Route path="/portfolio/jackrabbit-survey-drone" component={Jackrabbit}/>
+						<Route path="/portfolio/pesticide-spreader" component={Spreader}/>
+						<Route path="/portfolio/poliigon-materials" component={Poliigons}/>
+						<Route path="/portfolio/stone-variants" component={Stone}/>
+						<Route path="/portfolio/tec-9-semi-automatic-pistol" component={Tec9}/>
+						<Route path="/portfolio/jomungandr-axe" component={Jormungandr}/>
+						<Route path="/news" component={News}/>
+						<Route path="/about-us" component={About}/>
+						<Route path="/recruitment" component={Recruitment}/>
+						<Route path="/contact" component={Contact}/>
+						<Route path="/terms" component={Terms}/> */}
+					</Routes>
+					<Footer/>
 				</div>
 			
 		</Router>
