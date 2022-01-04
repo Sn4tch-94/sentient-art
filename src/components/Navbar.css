@@ -1,0 +1,91 @@
+.navbar-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+	height: 100px;
+	background-color: #1b1b1c;
+}
+
+.navbar-block {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	list-style-type: none;
+}
+
+.navbar-item {
+}
+
+.navbar-link {
+	text-decoration: none;
+	color: white;
+	font-family: "Poppins";
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 31px;
+
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+
+	display: inline-block;
+	position: relative;
+}
+
+.navbar-link:hover {
+	color: #e43423;
+}
+
+.navbar-link::before {
+	transition: 0s;
+	height: 3px;
+	content: "";
+	position: absolute;
+	left: 0px;
+	background-color: #e43423;
+	width: 0%;
+	bottom: 0px;
+}
+
+.navbar-link:hover::before {
+	transition: 0.5s;
+	height: 3px;
+	content: "";
+	position: absolute;
+	right: 0px;
+	background-color: #e43423;
+	width: 100%;
+	bottom: 0px;
+}
+
+.navbar-link:hover::after {
+	transition: 0s;
+	transition-delay: 0.5s;
+	height: 3px;
+	content: "";
+	position: absolute;
+	right: 0px;
+	background-color: #e43423;
+	width: 100%;
+	bottom: 0px;
+}
+
+.navbar-link::after {
+	transition: 0.5s;
+	height: 3px;
+	content: "";
+	position: absolute;
+	right: 0px;
+	background-color: #e43423;
+	width: 0%;
+	bottom: 0px;
+}
+
+.navbar-icon-container {
+	width: 100px;
+}
+
+.navbar-icon {
+}

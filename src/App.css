@@ -13,3 +13,8 @@
 
 .app-sidebar {
 }
+
+.app-body {
+	margin-left: 60px;
+	flex: 1;
+}

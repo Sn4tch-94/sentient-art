@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route}  from 'react-router-dom'
 
 import SideBar from './components/SideBar'
+import Navbar from './components/Navbar'
 
 function App() {
 	return (
@@ -10,7 +11,11 @@ function App() {
 				<div className="app-sidebar">
 					<SideBar/>
 				</div>
-			</Router>
+				<div className="app-body">
+					<Navbar/>
+				</div>
+			
+		</Router>
 		</div>
 		
 	);
