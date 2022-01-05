@@ -4,7 +4,7 @@
 	justify-content: center;
 	flex-direction: column;
 	background-color: #1b1b1c;
-	height: 550px;
+	height: 800px;
 	position: relative;
 }
 
@@ -67,4 +67,70 @@
 
 	filter: invert(47%) sepia(0%) saturate(2%) hue-rotate(190deg)
 		brightness(93%) contrast(84%);
+}
+
+.about-work-together {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	position: absolute;
+	top: 550px;
+
+	width: 500px;
+	height: 200px;
+
+	border-radius: 20px;
+	border-width: 2px;
+	border-style: dashed;
+	border-color: #e43423;
+}
+
+.about-work-together-title {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 43px;
+	font-family: "Poppins";
+	color: #f2f2f2;
+
+	margin-top: 25px;
+}
+
+.about-work-together-subtitle {
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 31px;
+	font-family: "Poppins";
+	color: #bcbcbc;
+}
+
+.about-work-together-button {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 31px;
+	font-family: "Poppins";
+	color: #ffffff;
+
+	width: 225px;
+	margin-top: 15px;
+	padding: 15px;
+
+	cursor: pointer;
+
+	border-style: solid;
+	border-radius: 50px;
+	border-width: 2px;
+	border-color: #e43423;
+	background-color: transparent;
+
+	transition: 0.5s ease;
+}
+
+.about-work-together-button:hover {
+	transition: 0.5s ease;
+	background-color: #e43423;
 }

@@ -25,6 +25,14 @@ function AboutSection() {
 				<img className="about-client-logo" src={warp_frog} alt=""  />
 				<img className="about-client-logo" src={poliigon} alt=""  />
 			</div>
+			<div className="about-work-together">
+				<div className="about-work-together-title">Let's work together</div>
+				<div className="about-work-together-subtitle">Expand your production capabilities with sentient art</div>
+				<button className="about-work-together-button">
+					Let's work together
+					<i class="fas fa-chevron-right"></i>
+				</button>
+			</div>
 		</div>
 	)
 }

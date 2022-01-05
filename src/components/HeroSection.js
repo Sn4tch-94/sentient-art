@@ -18,7 +18,7 @@ function HeroSection() {
 				<div className="hero-content-subtitle-2">Premium Outsourcing Studio</div>
 				<button className="hero-content-button">
 					See our work
-					<i class="fas fa-chevron-right"></i>	
+					<i class="fas fa-chevron-right"></i>
 				</button>
 			</div>
 			<div className="hero-scroll">
