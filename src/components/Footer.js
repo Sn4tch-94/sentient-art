@@ -1,6 +1,5 @@
 import './Footer.css'
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import artstation from '../ressources/artstation.svg'
 import twitter from '../ressources/twitter.svg'
@@ -14,16 +13,16 @@ function Footer() {
 			<div className="footer-title">SENTIENT ART</div>
 			<div className="footer-subtitle">Outsourcing Studio - Your Universes Made Concious</div>
 			<div className="footer-icons">
-				<a className="footer-icon-link" href="https://www.artstation.com/sentient-art" target="_blank">
+				<a className="footer-icon-link" href="https://www.artstation.com/sentient-art" target="_blank" rel="noreferrer noopener">
 					<img className="footer-icon-img" src={artstation} alt="" />
 				</a>
-				<a className="footer-icon-link" href="https://twitter.com/sentient_art" target="_blank">
+				<a className="footer-icon-link" href="https://twitter.com/sentient_art" target="_blank" rel="noreferrer noopener">
 					<img className="footer-icon-img" src={twitter} alt="" />
 				</a>
-				<a className="footer-icon-link" href="https://www.facebook.com/SentientArtStudio" target="_blank">
+				<a className="footer-icon-link" href="https://www.facebook.com/SentientArtStudio" target="_blank" rel="noreferrer noopener">
 					<img className="footer-icon-img" src={facebook} alt="" />
 				</a>
-				<a className="footer-icon-link" href="https://www.instagram.com/Sentient_art_studio/" target="_blank">
+				<a className="footer-icon-link" href="https://www.instagram.com/Sentient_art_studio/" target="_blank" rel="noreferrer noopener">
 					<img className="footer-icon-img" src={instagram} alt="" />
 				</a>
 				<a className="footer-icon-link" href="https://sentient-art.xyz/contact/">

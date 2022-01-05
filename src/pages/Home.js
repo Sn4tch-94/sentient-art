@@ -1,11 +1,10 @@
 import "./Home.css"
-import React from 'react'
+import HeroSection from "../components/HeroSection"
 
 export default function Home() {
 	return (
 		<div className="home">
-			<h1>Hello World !</h1>
-			Test
+			<HeroSection/>
 		</div>
 	)
 }
