@@ -1,0 +1,70 @@
+.about-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #1b1b1c;
+	height: 550px;
+	position: relative;
+}
+
+.about-background-title {
+	font-size: 150px;
+	font-weight: 900;
+	line-height: 90px;
+	font-family: "Poppins";
+	letter-spacing: 3px;
+	-webkit-text-stroke: 1.5px #383838;
+
+	position: absolute;
+	top: 100px;
+	left: 200px;
+
+	color: rgba(255, 255, 255, 0);
+}
+
+.about-title {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 65px;
+	font-family: "Poppins";
+
+	position: absolute;
+	top: 120px;
+	left: 200px;
+
+	color: #f2f2f2;
+}
+
+.about-description {
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 31px;
+	font-family: "Poppins";
+
+	width: 1400px;
+
+	position: absolute;
+	top: 250px;
+	left: 200px;
+
+	color: #bcbcbc;
+}
+
+.about-client-logos {
+	display: flex;
+	flex-direction: row;
+
+	position: absolute;
+	top: 400px;
+}
+
+.about-client-logo {
+	width: 100px;
+	height: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+
+	filter: invert(47%) sepia(0%) saturate(2%) hue-rotate(190deg)
+		brightness(93%) contrast(84%);
+}
