@@ -19,7 +19,9 @@ function Navbar() {
 				</li>
 			</ul>
 			<div className="navbar-icon-container">
-				<img className="navbar-icon" src={Logo} alt=''/>
+				<Link to="/" className="navbar-icon-link">
+					<img className="navbar-icon" src={Logo} alt=''/>
+				</Link>
 			</div>
 			<ul className="navbar-block">
 				<li className="navbar-item">

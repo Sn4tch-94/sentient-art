@@ -29,9 +29,6 @@
 	padding-right: 20px;
 	padding-top: 7px;
 	padding-bottom: 7px;
-
-	display: inline-block;
-	position: relative;
 }
 
 .navbar-link:hover {
@@ -84,6 +81,11 @@
 }
 
 .navbar-icon-container {
+	display: flex;
+}
+
+.navbar-icon-link {
+	display: flex;
 	width: 100px;
 }
 
