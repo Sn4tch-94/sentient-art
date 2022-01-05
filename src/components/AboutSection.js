@@ -1,10 +1,10 @@
 import "./AboutSection.css"
 
-import tencent from '../ressources/tencent.png'
-import epic from '../ressources/epic.svg'
-import midgard from '../ressources/midgar.svg'
-import warp_frog from '../ressources/warp_frog.svg'
-import poliigon from '../ressources/poliigon.svg'
+import tencent from "../ressources/images/clients/tencent.png"
+import epic from "../ressources/images/clients/epic.svg"
+import midgard from "../ressources/images/clients/midgar.svg"
+import warp_frog from "../ressources/images/clients/warp_frog.svg"
+import poliigon from "../ressources/images/clients/poliigon.svg"
 
 function AboutSection() {
 	return (
@@ -30,7 +30,7 @@ function AboutSection() {
 				<div className="about-work-together-subtitle">Expand your production capabilities with sentient art</div>
 				<button className="about-work-together-button">
 					Let's work together
-					<i class="fas fa-chevron-right"></i>
+					<i className="fas fa-chevron-right"></i>
 				</button>
 			</div>
 		</div>

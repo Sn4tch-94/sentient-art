@@ -1,11 +1,11 @@
 import './Footer.css'
 import React from 'react'
 
-import artstation from '../ressources/artstation.svg'
-import twitter from '../ressources/twitter.svg'
-import facebook from '../ressources/facebook.svg'
-import instagram from '../ressources/instagram.svg'
-import email from '../ressources/email.svg'
+import artstation from '../ressources/images/socials/artstation.svg'
+import twitter from '../ressources/images/socials/twitter.svg'
+import facebook from '../ressources/images/socials/facebook.svg'
+import instagram from '../ressources/images/socials/instagram.svg'
+import email from '../ressources/images/socials/email.svg'
 
 function Footer() {
 	return (

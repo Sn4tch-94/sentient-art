@@ -1,9 +1,9 @@
 import "./HeroSection.css"
 
-import hero_1 from '../ressources/hero_1.jpeg'
-import hero_2 from '../ressources/hero_2.jpeg'
-import hero_3 from '../ressources/hero_3.jpeg'
-import hero_4 from '../ressources/hero_4.jpeg'
+import hero_1 from '../ressources/images/hero_1.jpeg'
+import hero_2 from '../ressources/images/hero_2.jpeg'
+import hero_3 from '../ressources/images/hero_3.jpeg'
+import hero_4 from '../ressources/images/hero_4.jpeg'
 
 function HeroSection() {
 	return (
@@ -18,7 +18,7 @@ function HeroSection() {
 				<div className="hero-content-subtitle-2">Premium Outsourcing Studio</div>
 				<button className="hero-content-button">
 					See our work
-					<i class="fas fa-chevron-right"></i>
+					<i className="fas fa-chevron-right"></i>
 				</button>
 			</div>
 			<div className="hero-scroll">
