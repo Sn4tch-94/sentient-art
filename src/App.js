@@ -7,6 +7,9 @@ import Footer from './components/Footer'
 
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
+import News from './pages/News';
+// import AboutUs from './pages/AboutUs';
+import Recruitment from './pages/Recruitment';
 
 function App() {
 	return (
@@ -20,18 +23,18 @@ function App() {
 					<Routes>
 						<Route path="/" exact element={<Home/>}/>
 						<Route path="/portfolio" element={<Portfolio/>}/>
-						{/* <Route path="/portfolio/near-future-armored-truck" component={Truck}/>
-						<Route path="/portfolio/jackrabbit-survey-drone" component={Jackrabbit}/>
-						<Route path="/portfolio/pesticide-spreader" component={Spreader}/>
-						<Route path="/portfolio/poliigon-materials" component={Poliigons}/>
-						<Route path="/portfolio/stone-variants" component={Stone}/>
-						<Route path="/portfolio/tec-9-semi-automatic-pistol" component={Tec9}/>
-						<Route path="/portfolio/jomungandr-axe" component={Jormungandr}/> */}
-						{/* <Route path="/news" component={News}/>
-						<Route path="/about-us" component={About}/>
-						<Route path="/recruitment" component={Recruitment}/>
-						<Route path="/contact" component={Contact}/>
-						<Route path="/terms" component={Terms}/> */}
+						{/* <Route path="/portfolio/near-future-armored-truck" element={<Truck/>}/>
+						<Route path="/portfolio/jackrabbit-survey-drone" element={<Jackrabbit/>}/>
+						<Route path="/portfolio/pesticide-spreader" element={<Spreader/>}/>
+						<Route path="/portfolio/poliigon-materials" element={<Poliigons/>}/>
+						<Route path="/portfolio/stone-variants" element={<Stone/>}/>
+						<Route path="/portfolio/tec-9-semi-automatic-pistol" element={<Tec9/>}/>
+						<Route path="/portfolio/jomungandr-axe" element={<Jormungandr/>}/> */}
+						<Route path="/news" element={<News/>}/>
+						{/* <Route path="/about-us" element={<News/>}/> */}
+						<Route path="/recruitment" element={<Recruitment/>}/>
+						{/* <Route path="/contact" element={<Contact/>}/> */}
+						{/* <Route path="/terms" element={<Terms/>}/> */}
 					</Routes>
 					<Footer/>
 				</div>
