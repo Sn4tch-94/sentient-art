@@ -5,7 +5,7 @@ import WorkSection from "../components/WorkSection"
 import ProductionSection from "../components/ProductionSection"
 import ServicesSection from "../components/ServicesSection"
 
-export default function Home() {
+function Home() {
 	return (
 		<div className="home">
 			<HeroSection/>
@@ -16,3 +16,5 @@ export default function Home() {
 		</div>
 	)
 }
+
+export default Home

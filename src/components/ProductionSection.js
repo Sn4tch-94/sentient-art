@@ -13,7 +13,7 @@ function ProductionSection() {
 					a high-end product!
 				</div>
 				<div className="services-about">
-					<i class="fas fa-plus"></i>
+					<i className="fas fa-plus"></i>
 					About our production
 				</div>
 			</div>
@@ -26,7 +26,7 @@ function ProductionSection() {
 					crew and embark on a fulfilling adventure.
 				</div>
 				<div className="team-about">
-					<i class="fas fa-plus"></i>
+					<i className="fas fa-plus"></i>
 					About our team
 				</div>
 			</div>

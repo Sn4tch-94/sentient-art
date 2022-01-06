@@ -16,41 +16,41 @@ function ServicesSection() {
 			<div className="service-list">
 				<div className="service-list-left">
 					<div className="service-list-item">
-						<i class="fas fa-check"></i>
+						<i className="fas fa-check"></i>
 						Vehicle Design and Creation;
 					</div>
 					<div className="service-list-item">
-						<i class="fas fa-check"></i>
+						<i className="fas fa-check"></i>
 						Props;
 					</div>
 					<div className="service-list-item">
-						<i class="fas fa-check"></i>
+						<i className="fas fa-check"></i>
 						Weapons;
 					</div>
 					<div className="service-list-item">
-						<i class="fas fa-check"></i>
+						<i className="fas fa-check"></i>
 						Optimization for real time engines;
 					</div>
 					<div className="service-list-item">
-						<i class="fas fa-check"></i>
+						<i className="fas fa-check"></i>
 						Management and oversight of production;
 					</div>
 				</div>
 				<div className="service-list-right">
 					<div className="service-list-item">
-						<i class="fas fa-check"></i>
+						<i className="fas fa-check"></i>
 						Environments;
 					</div>
 					<div className="service-list-item">
-						<i class="fas fa-check"></i>
+						<i className="fas fa-check"></i>
 						Specific and technical objects;
 					</div>
 					<div className="service-list-item">
-						<i class="fas fa-check"></i>
+						<i className="fas fa-check"></i>
 						Specific and technical buildings;
 					</div>
 					<div className="service-list-item">
-						<i class="fas fa-check"></i>
+						<i className="fas fa-check"></i>
 						Integrating objects and environments in game engine;
 					</div>
 				</div>

@@ -1,0 +1,80 @@
+.portfolio {
+	background-color: #1b1b1c;
+}
+
+.portfolio-container {
+	display: flex;
+	flex-direction: column;
+
+	padding: 75px 0px 75px 0px;
+	margin: 0px 250px 0px 250px;
+}
+
+.portfolio-title {
+	font-size: 70px;
+	font-weight: 800;
+	line-height: 70px;
+	font-family: "Poppins";
+	-webkit-text-stroke: 1.5px #2b2b2c;
+
+	color: rgba(255, 255, 255, 0);
+}
+
+.portfolio-subtitle {
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 31px;
+	font-family: "Oswald";
+
+	color: #fff;
+}
+
+.portfolio-projects {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.portfolio-project {
+	width: 450px;
+	height: 250px;
+	text-decoration: none;
+	margin: 10px 5px 10px 5px;
+}
+
+.portfolio-project-image {
+	width: 450px;
+	height: 250px;
+	object-fit: cover;
+	object-position: bottom left;
+}
+
+.portfolio-project-gradient {
+	width: 450px;
+	height: 250px;
+
+	position: relative;
+	bottom: 251px;
+	z-index: 2;
+
+	background-image: linear-gradient(
+		350deg,
+		#1b1b1c,
+		rgba(27, 27, 28, 0.2) 40%,
+		rgba(27, 27, 28, 0)
+	);
+}
+
+.portfolio-project-title {
+	font-size: 24px;
+	line-height: 31px;
+	font-weight: 900;
+	font-family: "Poppins";
+	text-align-last: right;
+
+	position: relative;
+	bottom: 300px;
+	right: 25px;
+	z-index: 3;
+
+	color: #fff;
+}
