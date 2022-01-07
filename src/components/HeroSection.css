@@ -78,8 +78,10 @@
 	height: 60px;
 	width: 150px;
 
-	border-style: none;
+	border-style: solid;
+	border-width: 2px;
 	border-radius: 30px;
+	border-color: #e43423;
 
 	margin-top: 50px;
 	padding-left: 25px;
@@ -91,6 +93,15 @@
 	font-family: "Poppins";
 	background-color: #e43423;
 	color: #fff;
+}
+
+.hero-content-button:hover {
+	transition: 0.3s;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #e43423;
+
+	background-color: #1b1b1c;
 }
 
 .hero-scroll {

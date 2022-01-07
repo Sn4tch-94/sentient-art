@@ -1,4 +1,5 @@
 import "./HeroSection.css"
+import { useState } from 'react'
 
 import hero_1 from '../ressources/images/hero_1.jpeg'
 import hero_2 from '../ressources/images/hero_2.jpeg'
@@ -6,6 +7,10 @@ import hero_3 from '../ressources/images/hero_3.jpeg'
 import hero_4 from '../ressources/images/hero_4.jpeg'
 
 function HeroSection() {
+	setInterval(() => {
+		console.log("tick")
+	}, 5000)
+
 	return (
 		<div className="hero-container">
 			<div className="hero-images">
@@ -22,7 +27,7 @@ function HeroSection() {
 				</button>
 			</div>
 			<div className="hero-scroll">
-				<button className="hero-scroll-button" onClick={() => window.scrollTo({top: 600})}>SCROLL</button>
+				<button className="hero-scroll-button" onClick={() => window.scrollTo({top: 900, behavior: 'smooth'})}>SCROLL</button>
 				<div className="hero-scroll-line"></div>
 			</div>
 		</div>
